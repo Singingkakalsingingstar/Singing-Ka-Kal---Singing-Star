@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Singing Ka Kal-Singing Star Season 2 (2026) – Online Singing Reality Show</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Singing Ka Kal - Singing Star<br> Season 2 (2026)</br> <br>Online Singing Reality Show </h1>
+        
+      <p class="note">
+        This is a completely FREE singing reality show.  
+        No registration or audition fee is required.<br>Organizer Name : Gaurav & Shivam</p>
+        </p>
+        
+
+    <form id="idolForm">
+
+        <!-- PERSONAL DETAILS -->
+        <h2>Personal Details</h2>
+        <input type="text" placeholder="Full Name (As per ID)" required>
+        <input type="text" placeholder="Father / Mother Name" required>
+        <input type="date" required>
+        <input type="number" placeholder="Age" required>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <label><input type="radio" name="gender" required> Male</label>
+            <label><input type="radio" name="gender"> Female</label>
+            <label><input type="radio" name="gender"> Other</label>
+        </div>
+
+        <!-- CONTACT DETAILS -->
+        <h2>Contact Details</h2>
+        <input type="tel" placeholder="Mobile Number (WhatsApp Mandatory)" required>
+        <input type="email" placeholder="Email ID" required>
+        <input type="text" placeholder="City / Village">
+        <input type="text" placeholder="State">
+
+        <!-- SINGING PROFILE -->
+        <h2>Singing Profile</h2>
+        <label>Preferred Singing Genre</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox"> Bollywood</label>
+            <label><input type="checkbox"> Classical</label>
+            <label><input type="checkbox"> Folk</label>
+            <label><input type="checkbox"> Western</label>
+            <label><input type="checkbox"> Sufi</label>
+        </div>
+
+        <label>Singing Experience Level</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Beginner</option>
+            <option>Trained</option>
+            <option>Professional</option>
+        </select>
+
+        <!-- AUDITION DETAILS -->
+        ,<!--h2>Audition Details</h2>
+        <label>Audition Mode</label>
+        <div class="radio-group">
+            <label><input type="radio" name="mode" required> Online</label>
+            <label><input type="radio" name="mode"> Offline</label>
+        </div>
+
+        <input type="text" placeholder="Audition Song Name" required>
+        <input type="url" placeholder="Audition Video Link (YouTube / Google Drive)">
+
+        <!-- DOCUMENT UPLOAD -->
+        <h2>Document Upload</h2>
+        <label>Passport Size Photo</label>
+        <input type="file">
+        <label>ID Proof</label>
+        <input type="file">
+        <h2>Singing Video Upload</h2>
+
+    <label for="singingVideo">
+      Upload Your Singing Video (Only Video File):
+    </label><br><br>
+
+    <input 
+      type="file" 
+      id="singingVideo" 
+      name="singingVideo"
+      accept="video/*"
+      required
+    >
+
+    <p style="font-size:12px; color:gray;">
+      <!--* Only video files allowed (MP4, MOV, MKV).<br>
+      * Duration: 1–2 minutes recommended.--!>
+    </p>
+
+
+        <!-- DECLARATION -->
+        <h2>Declaration & Consent</h2>
+        <div class="checkbox-group">
+            <label><input type="checkbox" required> I confirm all details are true</label>
+            <label><input type="checkbox" required> I understand this is a FREE show</label>
+            <label><input type="checkbox" required> Organizer can use my audition video</label>
+        </div>
+        
+        <button type="submit">Submit Registration</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
